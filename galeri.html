@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galeri Kegiatan Harian Nurfita Lestari - Dokumentasi rutinitas perkuliahan semester 7, aktivitas coding, organisasi, dan hobi.">
+  <meta name="author" content="Nurfita Lestari">
+  <title>Galeri Kegiatan Harian | Nurfita Lestari</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-gallery">
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-badge">NL</span>
+        <span class="brand-text">Nurfita <strong>Lestari</strong></span>
+      </a>
+
+      <!-- Menu Navigasi -->
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link"><i class="fa-solid fa-arrow-left"></i> Kembali ke CV</a>
+        </li>
+        <li class="nav-item">
+          <a href="#rutinitas" class="nav-link"><i class="fa-solid fa-clock"></i> Rutinitas</a>
+        </li>
+        <li class="nav-item">
+          <a href="#galeri-foto" class="nav-link active"><i class="fa-solid fa-camera-retro"></i> Galeri Foto</a>
+        </li>
+        <li class="nav-item">
+          <a href="#tambah-kegiatan" class="nav-link"><i class="fa-solid fa-circle-plus"></i> Tambah Kegiatan</a>
+        </li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Ganti Tema Gelap/Terang" title="Ganti Tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <a href="index.html" class="btn btn-sm btn-outline">
+          <i class="fa-solid fa-user"></i> <span>Lihat Profil CV</span>
+        </a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Buka Menu Navigasi">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <!-- ==================== HERO SECTION GALERI ==================== -->
+    <section class="gallery-hero section">
+      <div class="container gallery-hero-container">
+        
+        <div class="gallery-hero-badge">
+          <span class="pulse-dot"></span> Dokumentasi Aktivitas Mahasiswi Semester 7
+        </div>
+
+        <h1 class="gallery-hero-title">
+          Galeri <span class="highlight-text">Kegiatan Harian</span>
+        </h1>
+
+        <p class="gallery-hero-desc">
+          Selamat datang di jurnal visual kegiatan sehari-hari saya, <strong>Nurfita Lestari</strong>. Di halaman ini terangkum potret rutinitas perkuliahan, proses belajar pemrograman web, kegiatan organisasi kemahasiswaan, hingga momen relaksasi di waktu luang.
+        </p>
+
+        <!-- Quick Summary Chips -->
+        <div class="hero-chips">
+          <div class="chip-item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Perkuliahan Aktif</span>
+          </div>
+          <div class="chip-item">
+            <i class="fa-solid fa-code"></i>
+            <span>Praktik & Coding Web</span>
+          </div>
+          <div class="chip-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Diskusi & Organisasi</span>
+          </div>
+          <div class="chip-item">
+            <i class="fa-solid fa-mug-saucer"></i>
+            <span>Self-Care & Hobi</span>
+          </div>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#galeri-foto" class="btn btn-primary">
+            <i class="fa-solid fa-images"></i> Jelajahi Galeri Foto
+          </a>
+          <a href="#rutinitas" class="btn btn-secondary">
+            <i class="fa-solid fa-calendar-days"></i> Lihat Jadwal Rutinitas
+          </a>
+          <a href="#tambah-kegiatan" class="btn btn-outline">
+            <i class="fa-solid fa-plus"></i> Tambah Catatan Baru
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 1: RUTINITAS HARIAN ==================== -->
+    <section class="section section-rutinitas" id="rutinitas">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-calendar-check"></i> Siklus Produktif</span>
+          <h2 class="section-title">Rutinitas Harian Saya</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Gambaran alur jadwal harian seorang mahasiswi tingkat akhir jurusan teknologi informasi.</p>
+        </div>
+
+        <div class="routine-timeline">
+          
+          <!-- Sesi 1 -->
+          <div class="routine-card">
+            <div class="routine-time">
+              <span class="time-badge"><i class="fa-regular fa-sun"></i> 06:30 - 08:00 WIB</span>
+              <span class="routine-phase">Pagi Hari</span>
+            </div>
+            <div class="routine-icon"><i class="fa-solid fa-mug-hot"></i></div>
+            <div class="routine-content">
+              <h3>Persiapan Pagi & Perencanaan Hari</h3>
+              <p>Memulai hari dengan ibadah, sarapan bergizi, mengecek jadwal kuliah hari ini di sistem akademik, dan menyusun daftar prioritas <em>to-do list</em> tugas mingguan.</p>
+            </div>
+          </div>
+
+          <!-- Sesi 2 -->
+          <div class="routine-card">
+            <div class="routine-time">
+              <span class="time-badge"><i class="fa-solid fa-book-open-reader"></i> 08:00 - 11:45 WIB</span>
+              <span class="routine-phase">Sesi Pagi</span>
+            </div>
+            <div class="routine-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="routine-content">
+              <h3>Perkuliahan Teori di Kampus</h3>
+              <p>Mengikuti mata kuliah tatap muka seperti <strong>Web Development Management</strong>, Manajemen Basis Data, dan Analisis Desain Sistem. Berpartisipasi aktif dalam sesi tanya-jawab dan diskusi materi.</p>
+            </div>
+          </div>
+
+          <!-- Sesi 3 -->
+          <div class="routine-card">
+            <div class="routine-time">
+              <span class="time-badge"><i class="fa-regular fa-clock"></i> 11:45 - 13:15 WIB</span>
+              <span class="routine-phase">Siang Hari</span>
+            </div>
+            <div class="routine-icon"><i class="fa-solid fa-utensils"></i></div>
+            <div class="routine-content">
+              <h3>Istirahat, Ibadah & Makan Siang</h3>
+              <p>Melaksanakan salat dzuhur, makan siang bersama teman-teman sekelas di kantin kampus, dan berbincang santai untuk melepas penat di sela waktu perkuliahan.</p>
+            </div>
+          </div>
+
+          <!-- Sesi 4 -->
+          <div class="routine-card highlight-routine">
+            <div class="routine-time">
+              <span class="time-badge"><i class="fa-solid fa-laptop-code"></i> 13:15 - 16:30 WIB</span>
+              <span class="routine-phase">Sesi Siang</span>
+            </div>
+            <div class="routine-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="routine-content">
+              <h3>Praktikum Lab Komputer & Pengerjaan Proyek Web</h3>
+              <p>Sesi implementasi praktis di laboratorium komputer: *slicing* halaman antarmuka website, konfigurasi basis data relasional, pengujian kode JavaScript, dan penyusunan tugas proyek kelompok.</p>
+            </div>
+          </div>
+
+          <!-- Sesi 5 -->
+          <div class="routine-card">
+            <div class="routine-time">
+              <span class="time-badge"><i class="fa-solid fa-people-group"></i> 16:30 - 18:00 WIB</span>
+              <span class="routine-phase">Sore Hari</span>
+            </div>
+            <div class="routine-icon"><i class="fa-solid fa-comments"></i></div>
+            <div class="routine-content">
+              <h3>Koordinasi Organisasi & Diskusi Kelompok</h3>
+              <p>Berkumpul bersama tim kerja mahasiswa atau himpunan untuk berkoordinasi mengenai agenda kegiatan kampus, persiapan seminar, atau evaluasi progres tugas bersama.</p>
+            </div>
+          </div>
+
+          <!-- Sesi 6 -->
+          <div class="routine-card">
+            <div class="routine-time">
+              <span class="time-badge"><i class="fa-solid fa-moon"></i> 19:30 - 22:30 WIB</span>
+              <span class="routine-phase">Malam Hari</span>
+            </div>
+            <div class="routine-icon"><i class="fa-solid fa-brain"></i></div>
+            <div class="routine-content">
+              <h3>Belajar Mandiri, Coding Eksplorasi & Relaksasi</h3>
+              <p>Meninjau ulang materi kuliah, membaca artikel perkembangan teknologi web, bereksperimen dengan desain UI, serta beristirahat mendengarkan musik santai sebelum tidur malam.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 2: GALERI FOTO KEGIATAN ==================== -->
+    <section class="section section-galeri-foto" id="galeri-foto">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-camera"></i> Album Dokumentasi</span>
+          <h2 class="section-title">Dokumentasi Foto Kegiatan</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Pilih kategori untuk menyaring foto berdasarkan jenis aktivitas harian saya.</p>
+        </div>
+
+        <!-- Filter Controls & Search -->
+        <div class="gallery-filter-bar">
+          <div class="gallery-tabs">
+            <button class="gallery-tab active" data-filter="all">
+              <i class="fa-solid fa-border-all"></i> Semua Foto <span class="tab-count" id="count-all">8</span>
+            </button>
+            <button class="gallery-tab" data-filter="kuliah">
+              <i class="fa-solid fa-graduation-cap"></i> Perkuliahan <span class="tab-count" id="count-kuliah">2</span>
+            </button>
+            <button class="gallery-tab" data-filter="coding">
+              <i class="fa-solid fa-code"></i> Coding & Proyek <span class="tab-count" id="count-coding">2</span>
+            </button>
+            <button class="gallery-tab" data-filter="organisasi">
+              <i class="fa-solid fa-users"></i> Organisasi & Diskusi <span class="tab-count" id="count-organisasi">2</span>
+            </button>
+            <button class="gallery-tab" data-filter="santai">
+              <i class="fa-solid fa-heart"></i> Hobi & Santai <span class="tab-count" id="count-santai">2</span>
+            </button>
+          </div>
+
+          <div class="gallery-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="gallery-search-input" placeholder="Cari kegiatan (misal: coding, kelas, rapat)..." aria-label="Cari kegiatan">
+          </div>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="gallery-grid">
+
+          <!-- Foto 1: Kuliah -->
+          <div class="gallery-card" data-category="kuliah">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Sesi Kuliah di Ruang Kelas" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-kuliah"><i class="fa-solid fa-graduation-cap"></i> Perkuliahan</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 08:30 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Ruang Kuliah FTI</span>
+              </div>
+              <h3 class="gallery-item-title">Sesi Perkuliahan Web Development Management</h3>
+              <p class="gallery-item-desc">Mendengarkan pemaparan materi mengenai metodologi pengembangan perangkat lunak (Agile & Scrum) serta manajemen siklus hidup produk web modern.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 2: Coding -->
+          <div class="gallery-card" data-category="coding">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Sesi Coding Frontend di Laptop" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-coding"><i class="fa-solid fa-code"></i> Coding & Proyek</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 14:00 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Lab Pemrograman</span>
+              </div>
+              <h3 class="gallery-item-title">Slicing UI & Eksplorasi CSS Modern</h3>
+              <p class="gallery-item-desc">Membuat komponen antarmuka responsif menggunakan Flexbox, CSS Grid, serta interaktivitas JavaScript untuk proyek pembuatan website portofolio.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 3: Organisasi -->
+          <div class="gallery-card" data-category="organisasi">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=800&q=80" alt="Diskusi Kelompok dan Organisasi" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-organisasi"><i class="fa-solid fa-users"></i> Organisasi</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 16:45 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Student Lounge Kampus</span>
+              </div>
+              <h3 class="gallery-item-title">Brainstorming Rencana Seminar Teknologi</h3>
+              <p class="gallery-item-desc">Rapat koordinasi bersama rekan-rekan divisi informasi dan publikasi guna mematangkan agenda pendaftaran peserta dan konsep desain banner promosi.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 4: Santai -->
+          <div class="gallery-card" data-category="santai">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Meja Belajar Santai dan Kopi" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-santai"><i class="fa-solid fa-mug-saucer"></i> Waktu Luang</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 17:30 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Coffee Corner</span>
+              </div>
+              <h3 class="gallery-item-title">Rehat Sejenak Sambil Membaca & Relaksasi</h3>
+              <p class="gallery-item-desc">Menikmati secangkir kopi hangat sambil membaca novel favorit dan menyusun catatan refleksi pribadi setelah seharian berkegiatan di kampus.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 5: Kuliah -->
+          <div class="gallery-card" data-category="kuliah">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Diskusi Belajar di Perpustakaan Kampus" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-kuliah"><i class="fa-solid fa-graduation-cap"></i> Perkuliahan</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 10:15 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Perpustakaan Pusat Kampus</span>
+              </div>
+              <h3 class="gallery-item-title">Studi Kelompok & Pencarian Literatur Referensi</h3>
+              <p class="gallery-item-desc">Mengkaji buku teks rekayasa web, jurnal ilmiah terkait usability testing, serta panduan arsitektur sistem informasi bersama kelompok belajar.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 6: Coding -->
+          <div class="gallery-card" data-category="coding">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Sesi Debugging Kode Malam Hari" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-coding"><i class="fa-solid fa-code"></i> Coding & Proyek</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 20:45 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Ruang Belajar Rumah</span>
+              </div>
+              <h3 class="gallery-item-title">Debugging Script & Optimasi Tampilan Dark Mode</h3>
+              <p class="gallery-item-desc">Memperbaiki struktur logika JavaScript lokal storage dan memastikan seluruh palet warna bekerja sempurna baik di layar resolusi tinggi maupun ponsel.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 7: Organisasi -->
+          <div class="gallery-card" data-category="organisasi">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Presentasi di Depan Mahasiswa" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-organisasi"><i class="fa-solid fa-users"></i> Organisasi</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 13:30 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Aula Gedung Seminar</span>
+              </div>
+              <h3 class="gallery-item-title">Sesi Presentasi Progres Program Kerja Organisasi</h3>
+              <p class="gallery-item-desc">Menyampaikan laporan capaian publikasi media informasi dan evaluasi kegiatan workshop pelatihan desain grafis kepada seluruh anggota himpunan.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foto 8: Santai -->
+          <div class="gallery-card" data-category="santai">
+            <div class="gallery-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Eksplorasi Desain UI Inspiratif" class="gallery-img" loading="lazy">
+              <span class="gallery-badge badge-santai"><i class="fa-solid fa-palette"></i> Hobi & Desain</span>
+              <div class="gallery-overlay">
+                <span class="overlay-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                <span class="overlay-text">Buka Foto Penuh</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <div class="gallery-meta">
+                <span><i class="fa-regular fa-clock"></i> 21:30 WIB</span>
+                <span><i class="fa-solid fa-location-dot"></i> Setup Meja Belajar</span>
+              </div>
+              <h3 class="gallery-item-title">Eksplorasi Inspirasi UI/UX & Desain Grafis</h3>
+              <p class="gallery-item-desc">Mengisi waktu luang dengan mencari tren estetika visual di Dribbble dan Behance untuk mengasah kepekaan komposisi warna dan tipografi digital.</p>
+              <div class="gallery-footer-action">
+                <span class="btn-view-card"><i class="fa-regular fa-eye"></i> Perbesar Gambar</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Empty State saat pencarian tidak ditemukan -->
+        <div id="gallery-empty" class="gallery-empty" style="display: none;">
+          <i class="fa-solid fa-folder-open"></i>
+          <h3>Tidak Ada Kegiatan yang Cocok</h3>
+          <p>Coba kata kunci pencarian lain atau pilih tab kategori yang berbeda.</p>
+          <button class="btn btn-sm btn-primary" id="btn-reset-filter">Reset Filter</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3: FORM TAMBAH KEGIATAN BARU ==================== -->
+    <section class="section section-tambah-kegiatan" id="tambah-kegiatan">
+      <div class="container">
+        
+        <div class="add-activity-container">
+          
+          <div class="add-activity-info">
+            <span class="section-tag"><i class="fa-solid fa-plus-circle"></i> Interaktif</span>
+            <h2>Tambah Catatan Kegiatan Baru</h2>
+            <div class="section-divider" style="margin: 0.8rem 0 1.2rem;"></div>
+            <p>
+              Ingin menambahkan dokumentasi aktivitas harian baru ke dalam galeri ini? Isi formulir di samping untuk menambahkan kartu kegiatan secara langsung ke halaman secara instan!
+            </p>
+
+            <div class="tips-box">
+              <h4><i class="fa-solid fa-lightbulb"></i> Tips Dokumentasi:</h4>
+              <ul>
+                <li>Gunakan foto yang jernih dan berorientasi lanskap agar tampak presisi di kartu galeri.</li>
+                <li>Tuliskan waktu dan tempat yang akurat agar alur harian tercatat sistematis.</li>
+                <li>Pilih kategori yang paling sesuai untuk mempermudah penyaringan.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="add-activity-card">
+            <form id="add-activity-form">
+              <div class="form-group">
+                <label for="act-title"><i class="fa-solid fa-heading"></i> Judul Kegiatan</label>
+                <input type="text" id="act-title" placeholder="Contoh: Sesi Belajar Mandiri JavaScript" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="act-category"><i class="fa-solid fa-layer-group"></i> Kategori</label>
+                  <select id="act-category" required>
+                    <option value="kuliah">Perkuliahan</option>
+                    <option value="coding" selected>Coding & Proyek</option>
+                    <option value="organisasi">Organisasi & Diskusi</option>
+                    <option value="santai">Hobi & Santai</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="act-time"><i class="fa-solid fa-clock"></i> Waktu / Jam</label>
+                  <input type="text" id="act-time" placeholder="Contoh: 15:00 WIB" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="act-location"><i class="fa-solid fa-location-dot"></i> Lokasi</label>
+                <input type="text" id="act-location" placeholder="Contoh: Ruang Lab / Rumah / Cafe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="act-desc"><i class="fa-solid fa-align-left"></i> Deskripsi Singkat</label>
+                <textarea id="act-desc" rows="3" placeholder="Ceritakan apa yang dikerjakan pada kegiatan ini..." required></textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="act-file"><i class="fa-solid fa-image"></i> Unggah Foto Kegiatan</label>
+                <input type="file" id="act-file" accept="image/*">
+                <small class="form-hint">Jika tidak memilih foto, gambar ilustrasi standar akan otomatis digunakan.</small>
+              </div>
+
+              <!-- Preview Kotak Foto -->
+              <div id="file-preview-container" class="file-preview-box" style="display: none;">
+                <img id="file-preview-img" src="" alt="Pratinjau Foto">
+                <button type="button" id="btn-remove-preview" class="btn-remove-preview" title="Hapus Pratinjau"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-cloud-arrow-up"></i> Tambahkan ke Galeri
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== LIGHTBOX MODAL ==================== -->
+  <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Tutup Pratinjau"><i class="fa-solid fa-xmark"></i></button>
+      
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Foto Sebelumnya">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Foto Selanjutnya">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <div class="lightbox-body">
+        <div class="lightbox-img-wrapper">
+          <img id="lightbox-img" src="" alt="Pratinjau Foto Penuh">
+        </div>
+        <div class="lightbox-details">
+          <div class="lightbox-badges">
+            <span id="lightbox-category" class="gallery-badge badge-kuliah">Perkuliahan</span>
+            <span id="lightbox-time" class="lightbox-time-pill"><i class="fa-regular fa-clock"></i> 08:30 WIB</span>
+            <span id="lightbox-location" class="lightbox-time-pill"><i class="fa-solid fa-location-dot"></i> Kampus</span>
+          </div>
+          <h3 id="lightbox-title" class="lightbox-title">Judul Kegiatan</h3>
+          <p id="lightbox-desc" class="lightbox-desc">Deskripsi lengkap mengenai aktivitas ini.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <h3>Nurfita Lestari</h3>
+        <p>Curriculum Vitae & Jurnal Kegiatan Harian - Semester 7</p>
+        <p class="footer-course">Mata Kuliah: Web Development Management</p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Navigasi Halaman</h4>
+        <ul>
+          <li><a href="index.html#biodata">Biodata CV</a></li>
+          <li><a href="index.html#pendidikan">Pendidikan</a></li>
+          <li><a href="index.html#pengalaman">Pengalaman</a></li>
+          <li><a href="index.html#keahlian">Keahlian</a></li>
+          <li><a href="galeri.html" class="active-page-link">Galeri Kegiatan Harian</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Sosial Media</h4>
+        <div class="footer-social-icons">
+          <a href="mailto:nurfitafita923@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://linkedin.com" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> Nurfita Lestari. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP & TOAST ==================== -->
+  <button id="back-to-top" class="back-to-top" aria-label="Kembali ke atas" title="Kembali ke atas">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <div id="toast" class="toast">
+    <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast-content">
+      <strong class="toast-title">Sukses!</strong>
+      <span class="toast-message">Operasi berhasil dilakukan.</span>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="gallery.js"></script>
+</body>
+</html>
